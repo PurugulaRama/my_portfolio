@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title> 
+    <!--font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!--custom css link-->
+    <link rel="stylesheet" href="myport.css">
+</head>
+<body>
+    <!--header section starts-->
+    <header>
+        <div class="user">
+            <img src="photo1.jpg" alt="">
+            <h1 class="name">Rama Purugula</h1>
+            <p class="post">Front end Developer</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>  
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--header section ends-->
+    <!--content section starts-->
+    <div class="container">
+        <section class="home" id="home">
+            <h3>hi there....</h3>
+            <h3 class="name">my name is<span> rama purugula</span></h3>
+            <h3 class="post">i am a <span class="typing-text"> front end developer</span></h3>
+            <a href="#"><button class="btn">hire me</button></a>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </section>
+        <!--about section-->
+        <section class=" about" id="about">
+            <h1 class="heading">about me</h1>
+            <div class="content">
+                <h3 class="name">my name is<span> rama purugula </span></h3>
+                <p> Basically I from Yadadri,currently staying in hyderabda.I have recently completed my masters of
+                     computer Applications in st.ann's womens college ,mehadipatnam.And have i have my graduation in 
+                     Bsc(computers) in University post-graduation. 
+                </p>
+                <p>My career objective is willing to work in an environment which helps me to grow
+                    professionally where i can showcase my skills and explore a new things.
+                </p>
+            </div>
+            <div class="skills">
+                <div class="progress">
+                    <h3>html<span>95%</span></h3>
+                    <div class="bar"><span></span></div>      
+                </div>
+                <div class="progress">
+                    <h3>css<span>90%</span></h3>
+                    <div class="bar"><span></span></div>      
+                </div>
+                <div class="progress">
+                    <h3>bootstrap<span>85%</span></h3>
+                    <div class="bar"><span></span></div>      
+                </div>
+                <div class="progress">
+                    <h3>javascript<span>75%</span></h3>
+                    <div class="bar"><span></span></div>      
+                </div>
+            </div>
+      </section>
+   
+    <!--content section ends-->
+    
+    <!--education section starts-->
+    <section class="education" id="education">
+        <h1 class="heading">my education</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="year">2020 - 2022</div>
+                <h3>St.ann’s college for Women,Mehadipatnam, Hyderabad</h3>
+                <p>MCA : master of computer Applications                                 
+                    CGPA : 8.66/10
+                </p>
+            </div>
+            <div class="box">
+                <div class="year">2017 - 2020</div>
+                <h3>University pg college (OU), Secunderabad, Hyderabad </h3>
+                <p>Bsc : computer Science<br>
+                   CGPA : 9.0/10 
+                </p>
+            </div>
+            <div class="box">
+                <div class="year">2015 - 2017</div>
+                <h3>Narayana junior college ,Hyderabad </h3>
+                <p> Intermediate : MPC<br>
+                    CGPA :9.37/10  
+                </p>
+            </div>
+            <div class="box">
+                <div class="year">2014 - 2015</div>
+                <h3>Little Flower e/m high school, Yadadri</h3>
+                <p>High School :SSC<br>
+                   CGPA : 8.7/10
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--education section starts-->
+    <!--service section-->
+    <section class="projects" id="projects">
+        <h1 class="heading">my projects</h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-python"></i>
+                <p><h3>A deep learning system for detection of fake and real human faces</h3>
+                    Description: The widespread use of face recognition system has led a multiple attempts to
+                    fool the systems in order to impersonate another person .
+                </p>
+            </div>
+            <div class="box">
+                <i class="fab fa-android"></i>
+                <p><h3>Android application development</h3>
+                    Description: Create an application to display using grid arrangement products can be anything 
+                    random.The products are displayed along with icons using flutter application which is also used
+                    dart programming language.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-html5"></i>
+                <p><h3>web-design</h3>
+                    Description: create a  different types of simple login or signup pages using html tags.And also 
+                    different types of resume templates  
+                </p>
+            </div>
+            <div class="box">
+                <i class="fab fa-css3"></i>
+                <p><h3>Portfolio Design</h3>
+                Description: create a portfolio of a student  using html/css and bootstrap and also make it as a
+                responsive website of the student. </p>
+            </div>
+        </div>
+    </section>
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading">contact me</h1>
+        <div class="row">
+            <form action="">
+                <input type="text" class="box" placeholder="first name">
+                <input type="text" class="box" placeholder="last name">
+                <input type="email" class="box" placeholder="enter your email">
+                <input type="text" class="box" placeholder="enter your project">
+                <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <input type="submit" value="message" class="btn">
+            </form>
+            <div class="content">
+                <div class="icons">
+                    <h3><i class="fas fa-map-marker"> address </i></h3>
+                    <p>Hyderabad,india 500039</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-envelope"> email </i></h3>
+                    <p>ramapurugula123@gmail.com</p>
+                </div>
+                <div class="icons">
+                    <h3><i class="fas fa-phone"> phone </i></h3>
+                    <p>+91 7286849266</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact section ends-->
+    </div>
+    <!--theme toggler-->
+    <div class="theme-toggler">
+        <span style="background: linear-gradient(lightblue,blue);"></span>
+    </div>
+    <!--type.js cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        var type= new Typed('.typing-text',{
+            strings : ['front end developer','web designer'],
+            typeSpeed:120,
+            loop:true
+        });
+    </script>
+
+</body>
+</html>
